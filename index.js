@@ -144,9 +144,11 @@ Use the getLastReview function below to do the following:
 */
 
 
-function getLastReview(/*Your code here*/) {
-  /*Your code here*/
+function getLastReview(array) {
+  return array[array.length - 1];
 } 
+
+console.log(getLastReview(reviews));
 
 
 
